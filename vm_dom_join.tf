@@ -6,6 +6,7 @@ virtual_machine_id = var.MD_VIRTUAL_MACHINE_ID
 publisher = "Microsoft.Compute"
 type = "JsonADDomainExtension"
 type_handler_version = "1.3"
+tags = var.MD_ALL_TAGS 
 settings = <<SETTINGS
     {
     "Name": "${var.MD_DOMAIN_NAME}",
