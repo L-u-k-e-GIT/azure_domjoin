@@ -50,7 +50,7 @@ variable "MD_DOMAIN_NAME" {
  default = ""
  }
 
-variable "MD_DOMAIN_NAME" { 
+variable "MD_ALL_TAGS" { 
 
  default = ""
  }
