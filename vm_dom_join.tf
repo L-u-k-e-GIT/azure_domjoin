@@ -17,11 +17,12 @@ settings = <<SETTINGS
       
     }
 SETTINGS
-    protected_settings = <<PROTECTED_SETTINGS
+  protected_settings   = <<PROTECTED_SETTINGS
     {
             "Password": "${var.MD_USERPWD}"
     }
 PROTECTED_SETTINGS
+
 lifecycle {
     ignore_changes = [
      tags,
